@@ -2,6 +2,9 @@
 
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/npa-jnotebooks%2Fpnrr-meet-irpinia-summer-school-2025/HEAD?urlpath=%2Fdoc%2Ftree%2F01_PNRR_MEET_2025_visualization.ipynb)
+
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
