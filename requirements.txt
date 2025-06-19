@@ -6,4 +6,4 @@ ipywidgets==8.0.4
 obspy==1.4.0
 pandas==2.2.3
 xdas==0.2.2
-xdas-dev/xpick==0.1.0b1
+"git+https://github.com/xdas-dev/xpick.git"==0.1.0b1 
