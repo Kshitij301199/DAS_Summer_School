@@ -1,3 +1,1 @@
 pip install "git+https://github.com/xdas-dev/xpick.git"
-pip install jupyter-server-proxy
-jupyter serverextension enable --sys-prefix jupyter_server_proxy
