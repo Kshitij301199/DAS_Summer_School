@@ -5,3 +5,4 @@ Here you can find all Jupyter Notebooks used for the analysis of the DAS data re
 
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/npa-jnotebooks%2Fpnrr-meet-irpinia-summer-school-2025/HEAD)
