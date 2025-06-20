@@ -1,0 +1,11 @@
+
+
+# Install xpick
+! pip install "git+https://github.com/xdas-dev/xpick.git"
+
+# Install jupyter proxy
+#
+# Trying to get development server accessible in session
+# Jupyter/Jupyterlab extension for proxying internal applications
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
+jupyter labextension install @jupyterlab/server-proxy --no-build
