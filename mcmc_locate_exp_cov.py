@@ -21,7 +21,7 @@ def npa_get_starting_model(rng, xmin, xmax, ymin, ymax, zmin, zmax, tmin, tmax, 
 
 from math import sqrt
 
-def npa_LOCATE_syn(nstat_sele, stlo, stla, X0, Y0, Z0, T0, VP0):
+def npa_LOCATE_syn(nstat_sele, stlo, stla, conv, X0, Y0, Z0, T0, VP0):
     
     SYN_DATA_P = []
     istat=0
@@ -29,8 +29,8 @@ def npa_LOCATE_syn(nstat_sele, stlo, stla, X0, Y0, Z0, T0, VP0):
         x1=stlo[istat]
         y1=stla[istat]
         z1=0.0
-        dist= sqrt( (X0-x1)**2 + (Y0-y1)**2 + (Z0-z1)**2 )
-        theo_P = T0 + (1.0/VP0) * dist 
+        dist= sqrt( (conv*(X0-x1))**2 + (conv*(Y0-y1))**2 + (Z0-z1)**2 )
+        theo_P = T0 + (1.0/VP0) * dist
         #print(istat,dist,T0,VP0,theo_P)
         SYN_DATA_P.append(theo_P)
         istat += 1
